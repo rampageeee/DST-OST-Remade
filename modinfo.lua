@@ -1,4 +1,4 @@
-version = "2.3.2"
+version = "2.5.1"
 name = "DST OST Remade "  .. version
 -- borrowed from Uncomp (which borrowed from Island Adventures)
 folder_name = folder_name or "workshop-"
@@ -6,7 +6,7 @@ if not folder_name:find("workshop-") then
     name = "[LOCAL] - " .. name
 end
 
-description = "Full sized expansion of Don't Starve Together music. Adds over an hour of new, original and fitting music with a lot of customization. Now with FULL Dusk and Night!"
+description = "Full sized expansion of Don't Starve Together music.\n\nAdds over an hour of new, original and fitting music with a lot of customization.\nNow with FULL Dusk and Night!"
 author = "Adam 'Rampage' Ogrodnik"
 forumthread = ""
 api_version = 10
@@ -19,12 +19,25 @@ shipwrecked_compatible = false
 
 all_clients_require_mod = false
 client_only_mod = true
+
 -- this one i came up with on my own
+local base_desc = "Adds over an hour of new, original and LORE-FRIENDLY music with a lot of customization. Now with FULL Dusk / Night and LUNAR ISLAND music!"
+
 if client_only_mod and not all_clients_require_mod then
-	name = name .. " [CLIENT]"
-	else
-	name = name .. " [SERVER]"
+    name = name .. " [CLIENT]"
+    description = "Full sized expansion of Don't Starve Together music.\n\n" .. base_desc .. "\n\nClient side!"
+else
+    name = name .. " [SERVER]"
+    description = "Server-side version of Don't Starve Together music DLC-sized expansion.\n\n" .. base_desc
 end
+
+icon_atlas = "modicon.xml"
+icon = "modicon.tex"
+
+server_filter_tags = {
+    "music",
+}
+
 
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
@@ -84,6 +97,16 @@ configuration_options = {
 		options = {
 			{description = "Ok", data = true, hover = "Custom danger music will play during fights."},
 			{description = "Naa", data = false, hover = "You won't hear custom danger music at all."}
+		},
+		default = true,
+	},
+	{
+		name = "celestial_music",
+		label = "Celestial Champion music",
+		hover = "Decides whether modded or vanilla music will play during Celestial Champion fight. Not affected by Soundtracks Shuffle.",
+		options = {
+			{description = "Remade", data = true, hover = "Modded three-phase Celestial Champion score."},
+			{description = "Vanilla", data = false, hover = "Klei's original boss music."},
 		},
 		default = true,
 	},
