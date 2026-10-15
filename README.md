@@ -2,7 +2,7 @@ https://steamcommunity.com/sharedfiles/itemedittext/?id=3011104997
 
 ---
 
-# **FULL SIZED EXPANSION OF DON'T STARVE TOGETHER MUSIC**
+### **FULL SIZED EXPANSION OF DON'T STARVE TOGETHER MUSIC**
 
 <u>**EXPANDED SOUNDTRACK**</u>  
 – 25+ new, original tracks for all of seasons, caves, ruins, fights and phases. Over **ONE HOUR** of **LORE FRIENDLY** music; mixes great with original soundtrack.
@@ -26,15 +26,15 @@ https://steamcommunity.com/sharedfiles/itemedittext/?id=3011104997
 
 Don't Starve soundtrack is great, but after ~~several hundreds~~ ~~thousands~~ **TENS OF THOUSANDS** hours it might get a little repetitive, yes?
 
-## [SERVER SIDE VERSION AVAILABLE HERE](https://steamcommunity.com/sharedfiles/filedetails/?id=3538085166)
+#### [SERVER SIDE VERSION AVAILABLE HERE](https://steamcommunity.com/sharedfiles/filedetails/?id=3538085166)
 
-### [...and single player version here! (not outdated anymore!)](https://steamcommunity.com/sharedfiles/filedetails/?id=3019494888)
+#### [...and single player version here! (not outdated anymore!)](https://steamcommunity.com/sharedfiles/filedetails/?id=3019494888)
 
 Please report any bugs/incompatibilities!
 
-## [FULL PLAYLIST](https://www.youtube.com/playlist?list=PLm8daxh7DGOTa9NW8IUGARevLyB_HQVAk)
+#### [FULL PLAYLIST](https://www.youtube.com/playlist?list=PLm8daxh7DGOTa9NW8IUGARevLyB_HQVAk)
 
-### Special thanks to lovely people who helped:
+#### Special thanks to lovely people who helped:
 
 **[Reeflions](https://www.instagram.com/reeflions/)** - she drew that great logo!  
 **[Scrimbles](https://steamcommunity.com/id/Scrimbles)** - for irreplaceable help with coding.  
